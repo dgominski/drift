@@ -1,74 +1,527 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title>Get Your Embedding Space in Order:
-Domain-Adaptive Regression for Forest Monitoring</title>
-  <meta name="Description" content="DESCRIPTION META TAG">
-  <meta name="Keywords" content="KEYWORDS, SHOULD, BE, PLACED, HERE">
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.7">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 30.0px; font: 20.0px Helvetica; color: #1e88e9; -webkit-text-stroke: #1e88e9}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 30.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 18.0px; font: 14.6px Helvetica; color: #393939; -webkit-text-stroke: #393939}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 16.0px; font: 16.0px Times; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 19.0px}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 19.0px}
-    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; line-height: 24.0px; font: 16.0px Helvetica; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)}
-    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
-    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7); min-height: 19.0px}
-    p.p15 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #393939; -webkit-text-stroke: #393939; min-height: 14.0px}
-    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 21.0px; font: 14.0px Courier; color: #393939; -webkit-text-stroke: #393939; background-color: #f2f2f2}
-    p.p18 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 16.7px Helvetica; font-kerning: none; color: #393939; -webkit-text-stroke: 0px #393939}
-    span.s3 {font-kerning: none; color: #393939; -webkit-text-stroke: 0px #393939}
-    span.s4 {font-kerning: none; color: #1e88e9; -webkit-text-stroke: 0px #1e88e9}
-    span.s5 {font: 12.2px Helvetica; font-kerning: none}
-    span.s6 {font: 20.0px Helvetica; font-kerning: none}
-    span.s7 {font-kerning: none; background-color: #292929}
-    span.s8 {font-kerning: none; background-color: #f2f2f2}
-    span.s9 {font-kerning: none; background-color: #f9f9f9}
-    span.s10 {font-kerning: none; color: #275bd3; -webkit-text-stroke: 0px #275bd3}
-  </style>
+    <APM_DO_NOT_TOUCH>
+
+        <script type="text/javascript">
+        (function() {
+            window.FIT = !!window.FIT;
+            try {
+                (function() {
+                    (function(a) {
+                        var d = this[l("tnemucod")],
+                            g = [];
+                        try {
+                            a = {
+                                " == f": !a
+                            };
+                            var h = d.getElementsByTagName("*");
+                            for (var k in h)
+                                if (a[" == f"])
+                                    try {
+                                        h[k].setAttribute("data-safe", "true")
+                                    } catch (m) {
+                                        g.push(m.message)
+                                    }
+                        } catch (m) {
+                            g.push(m.message)
+                        }
+                        return g;
+                        function l(m) {
+                            var n = "";
+                            for (var r in m)
+                                n = m[r] + n;
+                            return n
+                        }
+                    })(!0);
+                    var b = 70;
+                    try {
+                        var aa,
+                            ca,
+                            ma = c(320) ? 0 : 1,
+                            oa = c(226) ? 0 : 1;
+                        for (var pa = (c(223), 0); pa < ca; ++pa)
+                            ma += c(722) ? 1 : 2,
+                            oa += c(938) ? 2 : 3;
+                        aa = ma + oa;
+                        window.fb === aa && (window.fb = ++aa)
+                    } catch (a) {
+                        window.fb = aa
+                    }
+                    var e = !0;
+                    function f(a, d) {
+                        a += d;
+                        return a.toString(36)
+                    }
+                    function ra(a) {
+                        var d = 23;
+                        a && (document[p(d, 141, 128, 138, 128, 121, 128, 131, 128, 139, 144, 106, 139, 120, 139, 124)] && document[t(d, 141, 128, 138, 128, 121, 128, 131, 128, 139, 144, 106, 139, 120, 139, 124)] !== p(d, 141, 128, 138, 128, 121, 131, 124) || (e = !1));
+                        return e
+                    }
+                    function t(a) {
+                        var d = arguments.length,
+                            g = [];
+                        for (var h = 1; h < d; h++)
+                            g[h - 1] = arguments[h] - a;
+                        return String.fromCharCode.apply(String, g)
+                    }
+                    function p(a) {
+                        var d = arguments.length,
+                            g = [];
+                        for (var h = 1; h < d; ++h)
+                            g.push(arguments[h] - a);
+                        return String.fromCharCode.apply(String, g)
+                    }
+                    function ta() {}
+                    ra(window[ta[f(1086784, b)]] === ta);
+                    ra(typeof ie9rgb4 !== f(1242178186129, b));
+                    ra(RegExp("\x3c")[p(b, 186, 171, 185, 186)](function() {
+                        return "\x3c"
+                    }) & !RegExp(f(42819, b))[f(1372135, b)](function() {
+                        return "'x3'+'d';"
+                    }));
+                    var wa = window[p(b, 167, 186, 186, 167, 169, 174, 139, 188, 171, 180, 186)] || RegExp(t(b, 179, 181, 168, 175, 194, 167, 180, 170, 184, 181, 175, 170), f(-52, b))[f(1372135, b)](window["\x6e\x61vi\x67a\x74\x6f\x72"]["\x75\x73e\x72A\x67\x65\x6et"]),
+                        xa = +new Date + (c(907) ? 765343 : 6E5),
+                        Ba,
+                        Ca,
+                        Da,
+                        Ea = window[t(b, 185, 171, 186, 154, 175, 179, 171, 181, 187, 186)],
+                        Ga = wa ? c(270) ? 40284 : 3E4 : c(924) ? 5250 : 6E3;
+                    document[p(b, 167, 170, 170, 139, 188, 171, 180, 186, 146, 175, 185, 186, 171, 180, 171, 184)] && document[p(b, 167, 170, 170, 139, 188, 171, 180, 186, 146, 175, 185, 186, 171, 180, 171, 184)](p(b, 188, 175, 185, 175, 168, 175, 178, 175, 186, 191, 169, 174, 167, 180, 173, 171), function(a) {
+                        var d = 82;
+                        document[t(d, 200, 187, 197, 187, 180, 187, 190, 187, 198, 203, 165, 198, 179, 198, 183)] && (document[t(d, 200, 187, 197, 187, 180, 187, 190, 187, 198, 203, 165, 198, 179, 198, 183)] === f(1058781901, d) && a[p(d, 187, 197, 166, 196, 199, 197, 198, 183, 182)] ? Da = !0 : document[t(d, 200, 187, 197, 187, 180,
+                        187, 190, 187, 198, 203, 165, 198, 179, 198, 183)] === f(68616527584, d) && (Ba = +new Date, Da = !1, w()))
+                    });
+                    function w() {
+                        if (!document[t(58, 171, 175, 159, 172, 179, 141, 159, 166, 159, 157, 174, 169, 172)])
+                            return !0;
+                        var a = +new Date;
+                        if (a > xa && (c(920) ? 889366 : 6E5) > a - Ba)
+                            return ra(!1);
+                        var d = ra(Ca && !Da && Ba + Ga < a);
+                        Ba = a;
+                        Ca || (Ca = !0, Ea(function() {
+                            Ca = !1
+                        }, c(572) ? 0 : 1));
+                        return d
+                    }
+                    w();
+                    var Ha = [c(483) ? 9539830 : 17795081, c(310) ? 2147483647 : 27611931586, c(623) ? 916519239 : 1558153217];
+                    function Ja(a) {
+                        var d = 3;
+                        a = typeof a === f(1743045673, d) ? a : a[t(d, 119, 114, 86, 119, 117, 108, 113, 106)](c(128) ? 28 : 36);
+                        var g = window[a];
+                        if (!g || !g[t(d, 119, 114, 86, 119, 117, 108, 113, 106)])
+                            return;
+                        var h = "" + g;
+                        window[a] = function(k, l) {
+                            Ca = !1;
+                            return g(k, l)
+                        };
+                        window[a][p(d, 119, 114, 86, 119, 117, 108, 113, 106)] = function() {
+                            return h
+                        }
+                    }
+                    for (var Ka = (c(618), 0); Ka < Ha[f(1294399135, b)]; ++Ka)
+                        Ja(Ha[Ka]);
+                    ra(!1 !== window[p(b, 140, 143, 154)]);
+                    window.Ta = window.Ta || {};
+                    window.Ta.oc = "08d9de9a2319400053f897c7f6ce479abbf467f31c43d738dde2edc9bb3157e1c976fac08ba73d3105ebbae48d2e252db463af4caa033c1a13446c09c4e31a1af126683e56db2617";
+                    function B(a) {
+                        var d = +new Date;
+                        if (!document[p(41, 154, 158, 142, 155, 162, 124, 142, 149, 142, 140, 157, 152, 155, 106, 149, 149)] || d > xa && (c(525) ? 518977 : 6E5) > d - Ba)
+                            var g = ra(!1);
+                        else
+                            g = ra(Ca && !Da && Ba + Ga < d),
+                            Ba = d,
+                            Ca || (Ca = !0, Ea(function() {
+                                Ca = !1
+                            }, c(234) ? 0 : 1));
+                        return !(arguments[a] ^ g)
+                    }
+                    function c(a) {
+                        return 17 > a
+                    }
+                    (function() {
+                        var a = /(A([0-9a-f]{1,4}:){1,6}(:[0-9a-f]{1,4}){1,1}Z)|(A(([0-9a-f]{1,4}:){1,7}|:):Z)|(A:(:[0-9a-f]{1,4}){1,7}Z)/ig,
+                            d = document.getElementsByTagName("head")[0],
+                            g = [];
+                        for (d && (d = d.innerHTML.slice(0, 1E3)); d = null !== a.exec("");)
+                            g.push(d)
+                    })();
+                })();
+            } catch (x) {} finally {
+                ie9rgb4 = void (0);
+            }
+            ;
+            function ie9rgb4(a, b) {
+                return a >> b >> 0
+            }
+            ;
+
+        })();
+        </script>
+    </APM_DO_NOT_TOUCH>
+
+    <script type="text/javascript" src="/TSPD/082149a1b4ab200066af1f660addec63b6b7304666c8783117d8b1adfbf20e23084f20d65747ef85?type=9"></script>
+
+    <meta charset="utf-8">
+    <meta name="description" content="We present DeepSIM, a generative model for conditional image shape manipulation based on a single training image.">
+
+    <meta property="og:title" content="DeepSIM: Image Shape Manipulation from a Single Augmented Training Sample"/>
+    <meta property="og:description" content="We present DeepSIM, a generative model for conditional image shape manipulation based on a single training image."/>
+    <meta property="og:url" content="http://www.vision.huji.ac.il/deepsim/"/>
+    <meta property="og:image" content="static/images/og_tag_header_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+    <meta name="twitter:title" content="DeepSIM: Image Shape Manipulation from a Single Augmented Training Sample">
+    <meta name="twitter:description" content="We present DeepSIM, a generative model for conditional image shape manipulation based on a single training image.">
+    <meta name="twitter:image" content="static/images/twitter_tag_header_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="DeepSIM, GAN, cGAN, image-to-image-translation">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>DeepSIM: Image Shape Manipulation from a Single Augmented Training Sample</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; text-align: center; line-height: 54.0px; font: 48.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s1"><b>Academic Project Page</b></span></h1>
-<p class="p2"><span class="s1"><a href="https://github.com/sizhuoli">Sizhuo Li</a></span><span class="s2"><sup>*</sup></span><span class="s3">, <a href="https://github.com/dgominski"><span class="s4">Dimitri Gominski</span></a></span><span class="s2"><sup>*</sup></span><span class="s3">, <a href="file:///Users/dgominski/Documents/work/drift/drift/THIRD%20AUTHOR%20PERSONAL%20LINK"><span class="s4">Third Author</span></a><span class="Apple-converted-space"> </span></span></p>
-<p class="p3"><span class="s1">University of Copenhagen, LSCE Paris</span></p>
-<p class="p3"><span class="s1">ECCV 2024<span class="Apple-converted-space"> </span></span></p>
-<p class="p4"><span class="s5"><sup>*</sup></span><span class="s1">Indicates Equal Contribution</span><span class="s6"><span class="Apple-converted-space"> </span></span></p>
-<p class="p5"><span class="s1"><a href="https://arxiv.org/pdf/%3CARXIV%20PAPER%20ID%3E.pdf"><b></b></a></span><br></p>
-<p class="p6"><span class="s7"><a href="https://arxiv.org/pdf/%3CARXIV%20PAPER%20ID%3E.pdf">Paper<span class="s1"></span></a></span></p>
-<p class="p5"><span class="s1"><a href="file:///Users/dgominski/Documents/work/drift/drift/static/pdfs/supplementary_material.pdf"><b></b></a></span><br></p>
-<p class="p6"><span class="s7"><a href="file:///Users/dgominski/Documents/work/drift/drift/static/pdfs/supplementary_material.pdf">Supplementary<span class="s1"></span></a></span></p>
-<p class="p5"><span class="s1"><a href="https://github.com/YOUR%20REPO%20HERE"></a></span><br></p>
-<p class="p6"><span class="s7"><a href="https://github.com/YOUR%20REPO%20HERE">Code<span class="s1"></span></a></span></p>
-<p class="p7"><span class="s1"><a href="https://arxiv.org/abs/%3CARXIV%20PAPER%20ID%3E"><i></i></a></span><br></p>
-<p class="p6"><span class="s7"><a href="https://arxiv.org/abs/%3CARXIV%20PAPER%20ID%3E">arXiv<span class="s1"></span></a></span></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939"><span class="s1">Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.<span class="Apple-converted-space"> </span></span></h2>
-<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; text-align: center; line-height: 36.0px; font: 32.0px Helvetica; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)"><span class="s8"><b>Abstract</b></span></h2>
-<p class="p10"><span class="s8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.<span class="Apple-converted-space"> </span></span></p>
-<p class="p11"><span class="s1"><img src="file:///carousel1.jpg" alt="carousel1.jpg"></span></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939"><span class="s1">First image description.<span class="Apple-converted-space"> </span></span></h2>
-<p class="p11"><span class="s1"><img src="file:///carousel2.jpg" alt="carousel2.jpg"></span></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939"><span class="s1">Second image description.<span class="Apple-converted-space"> </span></span></h2>
-<p class="p11"><span class="s1"><img src="file:///carousel3.jpg" alt="carousel3.jpg"></span></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939"><span class="s1">Third image description.<span class="Apple-converted-space"> </span></span></h2>
-<p class="p11"><span class="s1"><img src="file:///carousel4.jpg" alt="carousel4.jpg"></span></p>
-<h2 style="margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #393939; -webkit-text-stroke: #393939"><span class="s1">Fourth image description.<span class="Apple-converted-space"> </span></span></h2>
-<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)"><span class="s8"><b>Video Presentation</b></span></h2>
-<p class="p13"><span class="s1"></span><br></p>
-<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s1"><b>Another Carousel</b></span></h2>
-<p class="p15"><span class="s1"></span><br></p>
-<p class="p15"><span class="s1"></span><br></p>
-<p class="p11"><span class="s1">\<span class="Apple-converted-space"> </span></span></p>
-<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #000000; color: rgba(0, 0, 0, 0.7); -webkit-text-stroke: rgba(0, 0, 0, 0.7)"><span class="s8"><b>Poster</b></span></h2>
-<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 31.0px; font: 28.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s1"><b>BibTeX</b></span></h2>
-<p class="p17"><span class="s1">BibTex Code Here</span></p>
-<p class="p18"><span class="s9">This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"><span class="s10">Academic Project Page Template</span></a> which was adopted from the <a href="https://nerfies.github.io/"><span class="s10">Nerfies</span></a> project page. You are free to borrow the of this website, we just ask that you link back to this page in the footer. </span><span class="s1"><br>
-</span><span class="s9">This website is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/"><span class="s10">Creative Commons Attribution-ShareAlike 4.0 International License</span></a>.<span class="Apple-converted-space"> </span></span></p>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">DeepSIM: Image Shape Manipulation from a Single Augmented Training Sample</h1>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <a href="https://www.linkedin.com/in/yael-vinker-a91a00157/" target="_blank">Yael Vinker</a>
+                                <sup>*</sup>
+                                ,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://www.linkedin.com/in/eliahu-horwitz" target="_blank">Eliahu Horwitz</a>
+                                <sup>*</sup>
+                                ,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://www.linkedin.com/in/nir-zabari-3a971486/" target="_blank">Nir Zabari</a>
+
+                                                  ,
+                            </span>
+
+                            <span class="author-block">
+                                <a href="http://www.cs.huji.ac.il/~ydidh" target="_blank">Yedid Hoshen</a>
+                            </span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                School of Computer Science and Engineering
+                                <br>
+                                 The Hebrew University of Jerusalem, Israel
+                                <br>
+                                ICCV 2021 (Oral)
+                            </span>
+                            <span class="eql-cntrb">
+                                <small>
+                                    <br>
+                                    <sup>*</sup>
+                                    Indicates Equal Contribution
+                                </small>
+                            </span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- PDF Link. -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/pdf/2007.01289.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+
+                                <!-- SM Link. -->
+                                <span class="link-block">
+                                    <a href="static/pdfs/supplementary_material.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Supplementary</span>
+                                    </a>
+                                </span>
+                                <!-- Code Link. -->
+                                <span class="link-block">
+                                    <a href="https://github.com/eliahuhorwitz/DeepSIM" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+                                <!-- ArXiv Link -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2007.01289" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+
+                                <!-- TODO Add dataset link -->
+                                <!-- TODO Add replicate link -->
+                                <!-- TODO Add colab link -->
+                                <!-- Colab Link. -->
+                                <!--   <span class="link-block">
+                                                <a href="" target="_blank"
+                                                   class="external-link button is-normal is-rounded is-dark">
+                                                  <span class="icon">
+                                                      <i class="fab fa-youtube"></i>
+                                                  </span>
+                                                  <span>Colab</span>
+                                                </a>
+                                              </span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <video poster="" id="tree" autoplay controls muted loop height="100%">
+                    <source src="static/videos/tree_header.mp4" type="video/mp4">
+                </video>
+                <h2 class="subtitle has-text-centered">
+                    <strong>DeepSIM:</strong>
+                     Given a
+                    <em>single</em>
+                     real training image (b) and a corresponding primitive representation (a), our model learns to map between the primitive (a) to the target image (b). At inference, the original primitive (a) is manipulated by the user. Then, the manipulated primitive is passed through the network which outputs a corresponding manipulated image (e) in the real image domain.
+
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section hero is-light">
+        <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                                    We present DeepSIM, a generative model for conditional image manipulation based on a single image.
+                                    We find that extensive augmentation is key for enabling single image training, and incorporate the use of thin-plate-spline (TPS) as an effective augmentation.
+                                    Our network learns to map between a primitive representation of the image to the image itself.
+                                    The choice of a primitive representation has an impact on the ease and expressiveness of the manipulations and can be automatic (e.g. edges), manual (e.g. segmentation) or hybrid such as edges on top of segmentations.
+                                    At manipulation time, our generator allows for making complex image changes by modifying the primitive input representation and mapping it through the network.
+                                    Our method is shown to achieve remarkable performance on image manipulation tasks.
+                                  </p>
+                    </div>
+                </div>
+            </div>
+            <!--/ Abstract. -->
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item">
+                        <img src="static/images/main_table.png" alt="main table"/>
+                        <h2 class="subtitle has-text-centered">
+
+                                      DeepSIM was trained on a
+                            <em>single</em>
+                             training pair, shown to the left of each sample. First row "face" output- (left) flipping eyebrows, (right) lifting nose. Second row "dog" output- changing shape of dog's hat, removing ribbon, and making face longer. Second row "car" output-  (top) adding wheel, (bottom) conversion to sports car.
+
+                        </h2>
+                    </div>
+                    <div class="item">
+                        <img src="static/images/car_peace.png" alt="cars peace"/>
+                        <h2 class="subtitle has-text-centered">
+                                  Top row - primitive images. Left - original pair used for training. Center- switching the positions between the two rightmost cars. Right- removing the leftmost car and inpainting the background.
+                                </h2>
+                    </div>
+                    <div class="item">
+                        <img src="static/images/bird.png" alt="bird"/>
+                        <h2 class="subtitle has-text-centered">
+                                 The leftmost column shows the source image, then each column demonstrate the result of our model when trained on the specified primitive. We manipulated the image primitives, adding a right eye, changing the point of view and shortening the beak. Our results are presented next to each manipulated primitive. The combined primitive performed best on high-level changes (e.g. the eye), and low-level changes (e.g. the background).
+                               </h2>
+                    </div>
+                    <div class="item">
+                        <img src="static/images/pink_dress.png" alt="bird"/>
+                        <h2 class="subtitle has-text-centered">
+                                On the left is the training image pair, in the middle are the manipulated primitives and on the right are the manipulated outputs- left to right: dress length, strapless, wrap around the neck.
+                              </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container">
+                <!-- Paper video. -->
+                <h2 class="title is-3">ICCV Presentation</h2>
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+
+                        <div class="publication-video">
+                            <iframe src="https://www.youtube.com/embed/RZwnnttQYzs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Paper video. -->
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small">
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="title is-3">Single Image Animation</h2>
+                <div id="results-carousel" class="carousel results-carousel">
+                    <div class="item item-woman">
+                        <video poster="" id="woman" autoplay controls muted loop height="100%">
+                            <source src="static/videos/woman.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="item item-eyes">
+                        <video poster="" id="eyes" autoplay controls muted loop height="100%">
+                            <source src="static/videos/eyes.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="item item-star-tp">
+                        <video poster="" id="star-tp" autoplay controls muted loop height="100%">
+                            <source src="static/videos/star.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-small is-light">
+        <div class="hero-body">
+            <div class="container">
+                <!-- Paper poster -->
+
+                <h2 class="title">ICCV Poster</h2>
+
+                <iframe src="static/pdfs/poster.pdf" width="100%" height="550"></iframe>
+                <!--/ Paper poster -->
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre>
+                <code>@InProceedings{Vinker_2021_ICCV,
+                        author    = {Vinker, Yael and Horwitz, Eliahu and Zabari, Nir and Hoshen, Yedid},
+                        title     = {Image Shape Manipulation From a Single Augmented Training Sample},
+                        booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+                        month     = {October},
+                        year      = {2021},
+                        pages     = {13769-13778}
+                      }</code>
+            </pre>
+        </div>
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+
+                                        The single image animation primitives were created by Jonathan Reich
+                            <a href="mailto:jonathanreichandco@gmail.com">jonathanreichandco@gmail.com </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="https://homes.cs.washington.edu/~kpar/nerfies/videos/nerfies_paper.pdf">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+
+                                      This website is licensed under a
+                            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                                    Commons Attribution-ShareAlike 4.0 International License</a>
+                            .
+
+                        </p>
+                        <p>
+
+                                    Website source code based on the
+                            <a href="https://nerfies.github.io/"> Nerfies</a>
+                             project page. If you want to reuse their
+                            <a href="https://github.com/nerfies/nerfies.github.io">source code</a>
+                            , please credit them appropriately.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Default Statcounter code for DeepSIM
+      http://www.vision.huji.ac.il/deepsim/ -->
+    <script type="text/javascript">
+    var sc_project = 12351448;
+    var sc_invisible = 1;
+    var sc_security = "c676de4f";
+    </script>
+    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+    <noscript>
+        <div class="statcounter">
+            <a title="Web Analytics" href="https://statcounter.com/" target="_blank">
+                <img class="statcounter" src="https://c.statcounter.com/12351448/0/c676de4f/1/" alt="Web Analytics">
+            </a>
+        </div>
+    </noscript>
+    <!-- End of Statcounter Code -->
+
 </body>
 </html>
