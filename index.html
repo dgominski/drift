@@ -276,11 +276,11 @@
                                 </span>
                                 <!-- Code Link. -->
                                 <span class="link-block">
-                                    <a href="https://github.com/sizhuoli" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                    <a href="https://github.com/sizhuoli/Domain_adaptive_regression_with_ordered_embedding_space" target="_blank" class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
-                                        <span>Code TODO</span>
+                                        <span>Code</span>
                                     </a>
                                 </span>
                                 <!-- ArXiv Link -->
@@ -357,9 +357,14 @@
                         </h2>
                     </div>
                     <div class="item">
-                        <img src="static/images/f4.png" alt="cars peace"/>
-                        <h2 class="subtitle has-text-centered">
-                              We devise a label assignment strategy using transductive learning on the manifold of target domain embeddings.
+                      <div class="columns is-centered has-text-centered">
+                        <img src="static/images/process.pdf" alt="main table"/>
+                        </div>
+                        <h2 class="subtitle has-text-justified">
+                              A. We apply Geometric Order Learning on the source domain to build a manifold that evolves with the target value. <br>
+                              B. On the target domain, embeddings become noisier, but retain their order. A few support examples give meaning to the manifold. <br>
+                              C. We apply the proposed MDR (Manifold Diffusion for Regression) to assign values to all data points, in a transductive manner.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -378,7 +383,7 @@
                       Aerial images were collected from public national campaigns, the satellite imagery in Slovenia was purchased from Planet's SkySat archive.
                       </p>
                       <div class="container is-max-desktop">
-                          <div class="hero-body">
+                          <div class="columns is-centered has-text-centered">
                               <img src="static/images/dataset_table.pdf" alt="DRIFT statistics"/>
                           </div>
                       </div>
@@ -447,15 +452,12 @@
     <section class="section" id="BibTeX">
         <div class="container is-max-desktop content">
             <h2 class="title">BibTeX</h2>
-            <pre>
-                <code>@InProceedings{DRIFT_2024_ECCV,
-                        author    = {Li, Sizhuo and Gominski, Dimitri and Brandt, Martin and Tong, Xiaoye and Ciais, Philippe},
-                        title     = {Get Your Embedding Space in Order: Domain-Adaptive Regression for Forest Monitoring},
-                        booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-                        month     = {October},
-                        year      = {2024},
-                      }</code>
-            </pre>
+            <pre><code>@InProceedings{DRIFT_2024_ECCV,
+        author    = {Li, Sizhuo and Gominski, Dimitri and Brandt, Martin and Tong, Xiaoye and Ciais, Philippe},
+        title     = {Get Your Embedding Space in Order: Domain-Adaptive Regression for Forest Monitoring},
+        booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
+        month     = {October},
+        year      = {2024},}</code></pre>
         </div>
     </section>
 
